@@ -1,0 +1,59 @@
+/*Remove styling*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.container {
+  max-width: 50%;
+  margin: auto;
+  margin-top: 5%;
+}
+table {
+  margin-top: 10px;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+.editing-row{
+  background-color: #dddddd;
+}
+
+.button-style {
+  background-color: rgb(39, 39, 155);
+  color: #fff;
+  border: 2px solid rgb(39, 39, 155);
+  border-radius: 2px;
+  padding: 5px;
+  margin: 15px 0px 15px 0px;
+} 
+/* Add new  Book Page */
+.container2 {
+  max-width: 50%;
+  margin: auto;
+  margin-top: 5%;
+  text-align: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0px;
+  align-items: center;
+  justify-content: center;
+}
+form input {
+  margin: 10px;
+  width: 70%;
+  padding: 10px;
+}

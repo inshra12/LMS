@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library Management System</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body onload="displayBooks()">
+ 
+    <div class="container">
+      <h1>Library Management System</h1>
+      <h2>Library Books</h2>
+      <button class="button-style">
+        <a href="authors.html">Author</a>
+      </button>
+      <button class="button-style">
+        <a href="publisher.html">Publisher</a>
+      </button>
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Author</th>
+            <th>Publisher</th>
+            <th>Date</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody class="tableData"></tbody>
+      </table>
+      <button class="button-style">
+        <a href="newBook.html">Add New Book</a>
+      </button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
